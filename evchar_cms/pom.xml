@@ -8,4 +8,28 @@
   <artifactId>evchar_cms</artifactId>
   <packaging>war</packaging>
   <description>后台管理模块</description>
+  
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>cn.evchar</groupId>
+  		<artifactId>evchar_common</artifactId>
+  		<version>${evchar.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>cn.evchar</groupId>
+  		<artifactId>evchar_trade</artifactId>
+  		<version>${evchar.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>cn.evchar</groupId>
+  		<artifactId>evchar_device</artifactId>
+  		<version>${evchar.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>cn.evchar</groupId>
+  		<artifactId>evchar_ucenter</artifactId>
+  		<version>${evchar.version}</version>
+  	</dependency>
+  </dependencies>
 </project>

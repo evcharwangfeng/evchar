@@ -7,4 +7,13 @@
   </parent>
   <artifactId>evchar_device</artifactId>
   <description>设备接入模块</description>
+  
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>cn.evchar</groupId>
+  		<artifactId>evchar_common</artifactId>
+  		<version>${evchar.version}</version>
+  	</dependency>
+  </dependencies>
 </project>

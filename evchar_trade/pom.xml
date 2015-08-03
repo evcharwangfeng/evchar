@@ -7,4 +7,12 @@
   </parent>
   <artifactId>evchar_trade</artifactId>
   <description>订单、权限模块</description>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>cn.evchar</groupId>
+  		<artifactId>evchar_common</artifactId>
+  		<version>${evchar.version}</version>
+  	</dependency>
+  </dependencies>
 </project>

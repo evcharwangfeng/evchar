@@ -4,6 +4,18 @@
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="evchar_common-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/evchar_common/evchar_common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="evchar_trade-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/evchar_trade/evchar_trade">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="evchar_device-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/evchar_device/evchar_device">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="evchar_ucenter-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/evchar_ucenter/evchar_ucenter">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="springmvc-standard"/>
         <property name="java-output-path" value="/evchar_cms/target/classes"/>
     </wb-module>

@@ -7,6 +7,29 @@
   </parent>
   <artifactId>evchar_web</artifactId>
   <packaging>war</packaging>
-  <description>web模块
-web模块</description>
+  <description>web模块 </description>
+  
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>cn.evchar</groupId>
+  		<artifactId>evchar_common</artifactId>
+  		<version>${evchar.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>cn.evchar</groupId>
+  		<artifactId>evchar_trade</artifactId>
+  		<version>${evchar.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>cn.evchar</groupId>
+  		<artifactId>evchar_device</artifactId>
+  		<version>${evchar.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>cn.evchar</groupId>
+  		<artifactId>evchar_ucenter</artifactId>
+  		<version>${evchar.version}</version>
+  	</dependency>
+  </dependencies>
 </project>
